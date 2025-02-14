@@ -9,7 +9,7 @@ This is an email client template built with Next.js and Postgres. It's built to 
 
 **Demo: https://next-email-client.vercel.app**
 
-## Tech Stack
+## Tech
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Postgres](https://www.postgresql.org/)
