@@ -4,9 +4,10 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
+    "vercel-build": "pnpm drizzle-kit generate:pg && pnpm drizzle-kit migrate && next build",
     "db:setup": "npx tsx lib/db/setup.ts",
     "db:seed": "npx tsx lib/db/seed.ts",
-    "db:generate": "drizzle-kit generate",
+    "db:generate": "drizzle-kit generate:pg",
     "db:migrate": "npx tsx lib/db/migrate.ts",
     "db:studio": "drizzle-kit studio"
   },
